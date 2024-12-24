@@ -29,8 +29,7 @@ class Rkn_Bots(object):
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://Dawnload94:Dawnload94@cluster0.ursfl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     # default caption 
-    DEF_CAP = os.environ.get("DEF_CAP", "<b><a href='https//:t.me/Rkn_Botz'>{file_name} Main Telegram Channel: @RknDeveloper</a></b>",
-    )
+    DEF_CAP = os.environ.get("DEF_CAP", "<b><a href='telegram.me/MovieDawnloadHub'>{file_name}</a>\n\n#1ˢᵗ ᵒⁿ 🅃🄴🄻🄴🄶🅁🄰🄼 ᵐᵒᵛⁱᵉˢ ʷᵉᵇ ˢᵉʳⁱᵉˢ ᵃⁿᵈ ᵗᵛ ˢʰᵒʷˢ\n</b><blockquote>𝖩𝗈𝗂𝗇➥「<a href='telegram.me/MovieDawnloadHub'>Backup channel</a>」</blockquote>",)
 
     # sticker Id
     STICKER_ID = os.environ.get("STICKER_ID", "0")
