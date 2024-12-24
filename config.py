@@ -19,7 +19,7 @@ class Rkn_Bots(object):
 
     # wes response configuration
     BOT_UPTIME = time.time()
-    PORT = int(os.environ.get("PORT", "8080"))
+    PORT = int(os.environ.get("PORT", "80"))
 
     # force subs channel ( required.. 😥)
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1002204726881") 
